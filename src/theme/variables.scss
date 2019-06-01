@@ -84,5 +84,31 @@ $colors: (
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+//@import "roboto";
+//@import "noto-sans";
+
+@font-face{
+
+  font-family: 'Amatic SC', cursive;
+  font-style:normal;
+  font-weight: 400;
+  src:url('../assets/font/AmaticSC-Regular.ttf');
+
+  }
+
+
+  @font-face{
+
+    font-family: 'Amatic SC', cursive;
+    font-style:normal;
+    font-weight: 400;
+    src:url('../assets/font/AmaticSC-Bold.ttf');
+  
+    }
+
+
+   h1,h2,h3,h4,p,button{ 
+
+    font-family: 'Amatic SC', cursive;
+     
+    }
